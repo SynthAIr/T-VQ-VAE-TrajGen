@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "timevqvae"
+version = "0.1.0"
+description = ""
+authors = ["Murad <abdulmajid.murad@sintef.no>"]
+readme = "README.md"
+packages = [{include = "timevqvae"}]
+[tool.poetry.dependencies]
+python = "^3.10"
+einops = "^0.8.0"
+matplotlib = "^3.9.0"
+numpy = "1.26.4"
+pandas = "^2.2.2"
+torch = "^2.3.1"
+lightning = "^2.3.1"
+pyyaml = "^6.0.1"
+requests = "^2.32.3"
+scikit-learn = "^1.5.0"
+scipy = "^1.14.0"
+supervised-fcn = "^1.7.9"
+x-transformers = "^1.31.6"
+wandb = "^0.17.3"
+jupyterlab = "^4.2.3"
+traffic = "^2.10.2"
+seaborn = "^0.13.2"
+cartes = "^0.8.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+numba = "^0.60.0"
+
+
+geopy = "^2.4.1"
+pydeck = "^0.9.1"
+streamlit = "^1.37.1"
+outlines = "^0.0.46"
+vllm = "^0.5.4"
+geodatasets = "^2024.8.0"
+datashader = "^0.16.3"
+dask = "^2024.9.0"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+train = "timevqvae.scripts.train:main"
+train_fcn = "timevqvae.scripts.train_fcn:main"
+evaluate = "timevqvae.scripts.evaluate:main"
+evaluate_flyability = "timevqvae.scripts.evaluate_flyability:main"
+generate = "timevqvae.scripts.generate:main"
+preprocess = "timevqvae.scripts.preprocess:main"
