@@ -6,13 +6,10 @@ This repository contains the implementation code for a paper titled "Generating 
 
 The code in this repository is associated with ongoing research and a paper that is currently in the review process. As such, it is subject to changes and updates.
 
-## Contents
-
 
 ## Usage
-
-Detailed usage instructions will be provided upon publication of the associated paper.
-
+ 
+The following are the general instructions for running the code in this repository:
 
 ### Environment Setup
 
@@ -154,11 +151,3 @@ make generate ADEP=EHAM ADES=LIMC DATA_SOURCE=EuroControl # Run generation with 
 
 make evaluate ADEP=EHAM ADES=LIMC DATA_SOURCE=EuroControl # Run evaluation with specified airports and data source, train if needed
 ```
-
-## Citation
-
-If you use this code in your research, please cite our paper (details to be provided upon publication).
-
-## Contact
-
-For any questions regarding this code or the associated paper, please open an issue in this repository.

@@ -1,0 +1,19 @@
+dataset:
+  in_channels: 4
+  features: ['latitude', 'longitude', 'altitude', 'timedelta']
+  data_scaling: True
+  batch_size: 256
+  num_workers: 0
+
+exp_params:
+  LR: 0.001  # learning rate
+  weight_decay: 0.00001
+
+trainer_params:
+  gpus:
+    - 0
+  max_epochs: 1000
+
+logger:
+  mlflow_uri: http://127.0.0.1:5000
+  experiment_name: SynTraj-TimeVQVAE-FCN

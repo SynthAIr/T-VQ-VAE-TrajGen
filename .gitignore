@@ -95,3 +95,6 @@ npm-debug.log*
 *.csv
 *.gz
 poetry.lock
+
+data
+saved_models
