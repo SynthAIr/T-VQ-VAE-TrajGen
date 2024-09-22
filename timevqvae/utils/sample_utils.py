@@ -11,7 +11,7 @@ def unconditional_sample(
     batch_size=32,
     return_representations=False,
 ):
-    print("sampling...")
+    # print("sampling...")
     n_iters = n_samples // batch_size
     is_residual_batch = False
     if n_samples % batch_size > 0:

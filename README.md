@@ -151,3 +151,28 @@ make generate ADEP=EHAM ADES=LIMC DATA_SOURCE=EuroControl # Run generation with 
 
 make evaluate ADEP=EHAM ADES=LIMC DATA_SOURCE=EuroControl # Run evaluation with specified airports and data source, train if needed
 ```
+
+## Evaluation plots
+
+To interactively visualize the evaluation plots, see the notebooks in the `notebooks` directory
+
+1- [pcs_tsne.ipynb](notebooks/pcs_tsne.ipynb): Plotting the Principal Component Analysis (PCA) and t-distributed Stochastic Neighbor Embedding (t-SNE) plots for the generated trajectories vs. the real trajectories.
+
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+        <img src=".figures/pca_plot_EHAM-LIMC.png" alt="PCA Plot" style="width: 100%;"/>
+        <p style="text-align:center;">PCA Plot</p>
+    </td>
+    </tr>
+</table>
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+        <img src=".figures/tsne_plot_EHAM-LIMC.png" alt="t-SNE Plot" style="width: 100%;"/>
+        <p style="text-align:center;">t-SNE Plot</p>
+    </td>
+    </tr>
+</table>
