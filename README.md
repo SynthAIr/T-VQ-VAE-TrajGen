@@ -197,3 +197,15 @@ To interactively visualize the evaluation plots, see the notebooks in the `noteb
     </td>
     </tr>
 </table>
+
+3- [distribution_plots.ipynb](notebooks/distribution_plots.ipynb): Plotting the distribution of  two key derived
+features: flight durations and flight speeds.
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+        <img src=".figures/distribution_plots_EHAM_LIMC.png" alt="Distribution Plots" style="width: 100%;"/>
+        <p style="text-align:center;">Distribution Plots</p>
+    </td>
+    </tr> 
+</table>
