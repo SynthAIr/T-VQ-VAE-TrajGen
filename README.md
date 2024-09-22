@@ -156,7 +156,7 @@ make evaluate ADEP=EHAM ADES=LIMC DATA_SOURCE=EuroControl # Run evaluation with 
 
 To interactively visualize the evaluation plots, see the notebooks in the `notebooks` directory
 
-1- [pcs_tsne.ipynb](notebooks/pcs_tsne.ipynb): Plotting the Principal Component Analysis (PCA) and t-distributed Stochastic Neighbor Embedding (t-SNE) plots for the generated trajectories vs. the real trajectories.
+1- [pca_tsne.ipynb](notebooks/pca_tsne.ipynb): Plotting the Principal Component Analysis (PCA) and t-distributed Stochastic Neighbor Embedding (t-SNE) plots for the generated trajectories vs. the real trajectories.
 
 
 <table>
