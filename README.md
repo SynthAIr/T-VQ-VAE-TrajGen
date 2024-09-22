@@ -176,3 +176,24 @@ To interactively visualize the evaluation plots, see the notebooks in the `noteb
     </td>
     </tr>
 </table>
+
+
+2- [Quality_Statistical_metrics.ipynb](notebooks/Quality_Statistical_metrics.ipynb): Plotting the quality metrics: Frechet Inception Distance (FID), Inception Score (IS).  And the statistical metrics: Marginal Distribution Difference (MDD), Autocorrelation Difference (ACD), Skewness Difference (SD), Kurtosis Difference (KD).
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+        <img src=".figures/fid_is_EHAM_LIMC.png" alt="FID and IS Plot" style="width: 100%;"/>
+        <p style="text-align:center;">FID and IS Plot</p>
+    </td>
+    </tr>
+</table>
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+        <img src=".figures/stat_metrics_EHAM_LIMC.png" alt="Statistical Metrics Plot" style="width: 100%;"/>
+        <p style="text-align:center;">Statistical Metrics Plot</p>
+    </td>
+    </tr>
+</table>
