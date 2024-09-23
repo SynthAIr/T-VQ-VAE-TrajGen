@@ -52,6 +52,11 @@ Here, we will have the `preprocess`, `train`, `generate`, `evaluate`, and `evalu
 TimeVQVAE                           # Root directory
 ├── configs                         # Configuration files for the models and training
 │   └── config.yaml                 # Main configuration file for the project
+├── notebooks                       # Directory for evaluation plots notebooks
+│   ├── distribution_plots.ipynb   
+│   ├── pca_tsne.ipynb
+│   ├── Quality_Statistical_metrics.ipynb
+│   └── time_series.ipynb
 ├── pyproject.toml                  # Poetry configuration file
 ├── README.md                       # Project README file
 ├── Makefile                        # Makefile for running the project scripts
@@ -208,4 +213,17 @@ features: flight durations and flight speeds.
         <p style="text-align:center;">Distribution Plots</p>
     </td>
     </tr> 
+</table>
+
+
+4- [time_series.ipynb](notebooks/time_series.ipynb): Plotting the time series of the generated trajectories vs. the real trajectories, as well as the mean and 95% confidence interval of both the real and generated trajectories.
+
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+        <img src=".figures/timeseries_ci_EHAM_LIMC.png" alt="Time Series Plot" style="width: 100%;"/>
+        <p style="text-align:center;">Time Series Plot</p>
+    </td>
+    </tr>
 </table>
