@@ -1,3 +1,5 @@
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 # T-VQ-VAE-TrajGen: TimeVQVAE for Synthetic Aircraft Trajectories
 
 This repository contains the implementation code for a paper titled "Generating Synthetic Aircraft Trajectories Using Time-Based Vector Quantized Variational Autoencoders", which is currently under review.
@@ -224,6 +226,54 @@ features: flight durations and flight speeds.
     <td style="text-align:center;">
         <img src=".figures/timeseries_ci_EHAM_LIMC.png" alt="Time Series Plot" style="width: 100%;"/>
         <p style="text-align:center;">Time Series Plot</p>
+    </td>
+    </tr>
+</table>
+
+
+5- [trajectory_distances.ipynb](notebooks/trajectory_distances.ipynb): Plotting the trajectory distances between generated and simulated trajectories.
+
+
+<!-- percentile_plots_euclidean.png
+
+correlation_heatmap_euclidean.png
+
+percentile_plots_spherical.png
+
+correlation_heatmap_spherical.png -->
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+        <img src=".figures/percentile_plots_euclidean.png" alt="Percentile Plots Euclidean" style="width: 100%;"/>
+        <p style="text-align:center;">Percentile Plots of Euclidean Distance</p>
+    </td>
+    </tr>
+</table>
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+        <img src=".figures/correlation_heatmap_euclidean.png" alt="Correlation Heatmap Euclidean" style="width: 100%;"/>
+        <p style="text-align:center;">Correlation Heatmap of Euclidean Distance</p>
+    </td>
+    </tr>
+</table>
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+        <img src=".figures/percentile_plots_spherical.png" alt="Percentile Plots Spherical" style="width: 100%;"/>
+        <p style="text-align:center;">Percentile Plots of Spherical Distance</p>
+    </td>
+    </tr>
+</table>
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+        <img src=".figures/correlation_heatmap_spherical.png" alt="Correlation Heatmap Spherical" style="width: 100%;"/>
+        <p style="text-align:center;">Correlation Heatmap of Spherical Distance</p>
     </td>
     </tr>
 </table>
